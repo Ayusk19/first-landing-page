@@ -1,0 +1,109 @@
+/* Reset styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    background-color: #ffffff; /* White background */
+    color: #333;
+}
+
+
+/* Mission and Vision */
+.mission-vision {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    padding: 40px 20px;
+    text-align: center;
+    background-color: #fff;
+}
+
+.mission, .vision {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.mission h3, .vision h3 {
+    font-size: 1.5rem;
+    color: #ff9800; /* Orange heading */
+    margin-bottom: 15px;
+}
+
+.mission p, .vision p {
+    color: #555;
+    font-size: 1rem;
+    line-height: 1.8;
+}
+
+/* Team Section */
+.team {
+    padding: 40px 20px;
+    background-color: #fff7eb; /* Light orange background */
+    text-align: center;
+}
+
+.team h2 {
+    font-size: 2rem;
+    margin-bottom: 30px;
+    color: #ff9800; /* Orange heading */
+}
+
+.team-cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.team-card {
+    background-color: #ffffff; /* White card */
+    border-radius: 5px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    width: 200px;
+    text-align: center;
+    padding: 20px;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.team-card:hover {
+    transform: scale(1.05); /* Zoom effect */
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.2); /* Enhanced shadow */
+}
+
+.team-card img {
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    margin-bottom: 10px;
+}
+
+.team-card h4 {
+    font-size: 1.2rem;
+    margin-bottom: 5px;
+    color: #ff9800; /* Orange heading */
+}
+
+.team-card p {
+    font-size: 0.9rem;
+    color: #555;
+}
+
+/* Footer */
+.footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #000; /* Black background */
+    color: #fff; /* White text */
+    border-top: 2px solid #ff9800; /* Orange border */
+}
+
+.footer p {
+    margin: 0;
+    font-size: 0.9rem;
+}
